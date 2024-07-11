@@ -76,10 +76,9 @@
                             <dt class="col-sm-3">Origin</dt>
                             <dd class="col-sm-9">Russia, USA, and Europe </dd>
                         </dl>
-                        <hr>
                         <div class="row ">
                             <div class="col">
-                                <label class="form-label">Quantity</label>
+                                <label class="form-label">Quantity: </label>
                                 <div class="row align-items-center">
                                     <div class="col-6">
                                         <div class="input-group input-spinner">

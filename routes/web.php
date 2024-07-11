@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\WebsiteController;
+use App\Http\Controllers\CartController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,3 +16,6 @@ use App\Http\Controllers\WebsiteController;
 
 Route::get('/',[WebsiteController::class,'index'])->name('website');
 Route::get('/product/{id}/{name}',[WebsiteController::class, 'productDetail'])->name('product.detail');
+
+// Cart Module
+Route::get('/cart',[CartController::class,'index'])->name('cart');
