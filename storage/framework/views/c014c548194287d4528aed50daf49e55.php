@@ -321,25 +321,8 @@
                             </li>
 
                             <li class="nav-item dropdown dropdown-large d-none">
-                                <a class="nav-link dropdown-toggle dropdown-toggle-nocaret position-relative"
-                                    href="#" data-bs-toggle="dropdown"><span class="alert-count">7</span>
-                                    <i class='bx bx-bell'></i>
-                                </a>
                                 <div class="dropdown-menu dropdown-menu-end">
-                                    <a href="javascript:;">
-                                        <div class="msg-header">
-                                            <p class="msg-header-title">Notifications</p>
-                                            <p class="msg-header-badge">8 New</p>
-                                        </div>
-                                    </a>
-                                    <div class="header-notifications-list">
-
-                                    </div>
-                                    <a href="javascript:;">
-                                        <div class="text-center msg-footer">
-                                            <button class="btn btn-primary w-100">View All Notifications</button>
-                                        </div>
-                                    </a>
+                                    <div class="header-notifications-list"></div>
                                 </div>
                             </li>
                             <li class="nav-item dropdown dropdown-large">
@@ -349,7 +332,7 @@
                                     <i class='bx bx-shopping-bag'></i>
                                 </a>
                                 <div class="dropdown-menu dropdown-menu-end">
-                                    <a href="javascript:;">
+                                    <a href="<?php echo e(route('cart')); ?>">
                                         <div class="msg-header">
                                             <p class="msg-header-title">My Cart</p>
                                             <p class="msg-header-badge">10 Items</p>
@@ -366,13 +349,138 @@
                                                 </div>
                                                 <div class="flex-grow-1">
                                                     <h6 class="cart-product-title mb-0">Men White T-Shirt</h6>
-                                                    <p class="cart-product-price mb-0">1 X $29.00</p>
+                                                    <p class="cart-product-price mb-0">(1 X ৳29.00)</p>
                                                 </div>
                                                 <div class="">
-                                                    <p class="cart-price mb-0">$250</p>
+                                                    <p class="cart-price mb-0">৳250</p>
                                                 </div>
-                                                <div class="cart-product-cancel"><i class="bx bx-x"></i>
+                                                <div class="cart-product-cancel text-danger"><i class="bx bx-trash"></i></div>
+                                            </div>
+                                        </a>
+                                        <a class="dropdown-item" href="javascript:;">
+                                            <div class="d-flex align-items-center gap-3">
+                                                <div class="position-relative">
+                                                    <div class="cart-product rounded-circle bg-light">
+                                                        <img src="<?php echo e(asset('/')); ?>website/assets/images/products/11.png"
+                                                            class="" alt="product image">
+                                                    </div>
                                                 </div>
+                                                <div class="flex-grow-1">
+                                                    <h6 class="cart-product-title mb-0">Men White T-Shirt</h6>
+                                                    <p class="cart-product-price mb-0">(1 X ৳29.00)</p>
+                                                </div>
+                                                <div class="">
+                                                    <p class="cart-price mb-0">৳250</p>
+                                                </div>
+                                                <div class="cart-product-cancel text-danger"><i class="bx bx-trash"></i></div>
+                                            </div>
+                                        </a>
+                                        <a class="dropdown-item" href="javascript:;">
+                                            <div class="d-flex align-items-center gap-3">
+                                                <div class="position-relative">
+                                                    <div class="cart-product rounded-circle bg-light">
+                                                        <img src="<?php echo e(asset('/')); ?>website/assets/images/products/11.png"
+                                                            class="" alt="product image">
+                                                    </div>
+                                                </div>
+                                                <div class="flex-grow-1">
+                                                    <h6 class="cart-product-title mb-0">Men White T-Shirt</h6>
+                                                    <p class="cart-product-price mb-0">(1 X ৳29.00)</p>
+                                                </div>
+                                                <div class="">
+                                                    <p class="cart-price mb-0">৳250</p>
+                                                </div>
+                                                <div class="cart-product-cancel text-danger"><i class="bx bx-trash"></i></div>
+                                            </div>
+                                        </a>
+                                        <a class="dropdown-item" href="javascript:;">
+                                            <div class="d-flex align-items-center gap-3">
+                                                <div class="position-relative">
+                                                    <div class="cart-product rounded-circle bg-light">
+                                                        <img src="<?php echo e(asset('/')); ?>website/assets/images/products/11.png"
+                                                            class="" alt="product image">
+                                                    </div>
+                                                </div>
+                                                <div class="flex-grow-1">
+                                                    <h6 class="cart-product-title mb-0">Men White T-Shirt</h6>
+                                                    <p class="cart-product-price mb-0">(1 X ৳29.00)</p>
+                                                </div>
+                                                <div class="">
+                                                    <p class="cart-price mb-0">৳250</p>
+                                                </div>
+                                                <div class="cart-product-cancel text-danger"><i class="bx bx-trash"></i></div>
+                                            </div>
+                                        </a>
+                                        <a class="dropdown-item" href="javascript:;">
+                                            <div class="d-flex align-items-center gap-3">
+                                                <div class="position-relative">
+                                                    <div class="cart-product rounded-circle bg-light">
+                                                        <img src="<?php echo e(asset('/')); ?>website/assets/images/products/11.png"
+                                                            class="" alt="product image">
+                                                    </div>
+                                                </div>
+                                                <div class="flex-grow-1">
+                                                    <h6 class="cart-product-title mb-0">Men White T-Shirt</h6>
+                                                    <p class="cart-product-price mb-0">(1 X ৳29.00)</p>
+                                                </div>
+                                                <div class="">
+                                                    <p class="cart-price mb-0">৳250</p>
+                                                </div>
+                                                <div class="cart-product-cancel text-danger"><i class="bx bx-trash"></i></div>
+                                            </div>
+                                        </a>
+                                        <a class="dropdown-item" href="javascript:;">
+                                            <div class="d-flex align-items-center gap-3">
+                                                <div class="position-relative">
+                                                    <div class="cart-product rounded-circle bg-light">
+                                                        <img src="<?php echo e(asset('/')); ?>website/assets/images/products/11.png"
+                                                            class="" alt="product image">
+                                                    </div>
+                                                </div>
+                                                <div class="flex-grow-1">
+                                                    <h6 class="cart-product-title mb-0">Men White T-Shirt</h6>
+                                                    <p class="cart-product-price mb-0">(1 X ৳29.00)</p>
+                                                </div>
+                                                <div class="">
+                                                    <p class="cart-price mb-0">৳250</p>
+                                                </div>
+                                                <div class="cart-product-cancel text-danger"><i class="bx bx-trash"></i></div>
+                                            </div>
+                                        </a>
+                                        <a class="dropdown-item" href="javascript:;">
+                                            <div class="d-flex align-items-center gap-3">
+                                                <div class="position-relative">
+                                                    <div class="cart-product rounded-circle bg-light">
+                                                        <img src="<?php echo e(asset('/')); ?>website/assets/images/products/11.png"
+                                                            class="" alt="product image">
+                                                    </div>
+                                                </div>
+                                                <div class="flex-grow-1">
+                                                    <h6 class="cart-product-title mb-0">Men White T-Shirt</h6>
+                                                    <p class="cart-product-price mb-0">(1 X ৳29.00)</p>
+                                                </div>
+                                                <div class="">
+                                                    <p class="cart-price mb-0">৳250</p>
+                                                </div>
+                                                <div class="cart-product-cancel text-danger"><i class="bx bx-trash"></i></div>
+                                            </div>
+                                        </a>
+                                        <a class="dropdown-item" href="javascript:;">
+                                            <div class="d-flex align-items-center gap-3">
+                                                <div class="position-relative">
+                                                    <div class="cart-product rounded-circle bg-light">
+                                                        <img src="<?php echo e(asset('/')); ?>website/assets/images/products/11.png"
+                                                            class="" alt="product image">
+                                                    </div>
+                                                </div>
+                                                <div class="flex-grow-1">
+                                                    <h6 class="cart-product-title mb-0">Men White T-Shirt</h6>
+                                                    <p class="cart-product-price mb-0">(1 X ৳29.00)</p>
+                                                </div>
+                                                <div class="">
+                                                    <p class="cart-price mb-0">৳250</p>
+                                                </div>
+                                                <div class="cart-product-cancel text-danger"><i class="bx bx-trash"></i></div>
                                             </div>
                                         </a>
                                     </div>
@@ -380,9 +488,9 @@
                                         <div class="text-center msg-footer">
                                             <div class="d-flex align-items-center justify-content-between mb-3">
                                                 <h5 class="mb-0">Total</h5>
-                                                <h5 class="mb-0 ms-auto">$489.00</h5>
+                                                <h5 class="mb-0 ms-auto">৳489.00</h5>
                                             </div>
-                                            <button class="btn btn-primary w-100">Checkout</button>
+                                            <a href="<?php echo e(route('checkout')); ?>" class="btn own-btn">Checkout</a>
                                         </div>
                                     </a>
                                 </div>
@@ -450,6 +558,7 @@
         <!--Start Back To Top Button-->
         <a href="javaScript:;" class="back-to-top"><i class='bx bxs-up-arrow-alt'></i></a>
         <!--End Back To Top Button-->
+
         <footer class="page-footer">
             <p class="mb-0">Copyright © <?php echo e(date('Y')); ?>. All right reserved.</p>
         </footer>

@@ -86,10 +86,10 @@
                                         </div>
                                     </div>
                                     <div class="col-6">
-                                        <a href="#" class="btn btn-outline-primary w-100">
+                                        <button class="own-btn btn">
                                             <span class="text">Add to cart</span> 
                                             <i class='bx bxs-cart-alt'></i>
-                                        </a>
+                                        </button>
                                     </div>
                                 </div>
                                 

@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\WebsiteController;
 use App\Http\Controllers\CartController;
+use App\Http\Controllers\CheckoutController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,3 +20,6 @@ Route::get('/product/{id}/{name}',[WebsiteController::class, 'productDetail'])->
 
 // Cart Module
 Route::get('/cart',[CartController::class,'index'])->name('cart');
+
+// Checkout Module
+Route::get('/checkout',[CheckoutController::class,'index'])->name('checkout');
