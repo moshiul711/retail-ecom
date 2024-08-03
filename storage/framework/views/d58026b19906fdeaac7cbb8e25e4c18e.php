@@ -82,7 +82,7 @@
                                 <div class="row align-items-center">
                                     <div class="col-6">
                                         <div class="input-group input-spinner">
-                                            <input type="number" class="form-control" value="1">
+                                            <input type="number" class="form-control" min="1" value="1" max="5">
                                         </div>
                                     </div>
                                     <div class="col-6">

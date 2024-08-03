@@ -19,7 +19,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&amp;display=swap" rel="stylesheet">
     <link href="<?php echo e(asset('/')); ?>website/assets/css/app.css" rel="stylesheet">
     <link href="<?php echo e(asset('/')); ?>website/assets/css/icons.css" rel="stylesheet">
-
     <title><?php echo $__env->yieldContent('title'); ?></title>
 </head>
 
@@ -670,7 +669,6 @@
             mainImage.src = thumbnail.src;
         }
     </script>
-
 </body>
 
 

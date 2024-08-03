@@ -100,14 +100,14 @@
                                 </tr>
                                 <tr>
                                     <td>Discount</td>
-                                    <td class="float-end">- ৳ 20</td>
+                                    <td class="float-end">- ৳ 00</td>
                                 </tr>
-                                <tr>
+                                {{-- <tr>
                                     <td><input type="text" placeholder="Enter Voucher Code" class="form-control"></td>
                                     <td class="float-end"><button class="btn own-btn">
                                         <span class="text">Apply</span> 
                                     </button></td>
-                                </tr>
+                                </tr> --}}
                                 <tr>
                                     <td>Total</td>
                                     <td class="float-end">৳ 2000</td>

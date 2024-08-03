@@ -23,3 +23,4 @@ Route::get('/cart',[CartController::class,'index'])->name('cart');
 
 // Checkout Module
 Route::get('/checkout',[CheckoutController::class,'index'])->name('checkout');
+Route::get('/order-complete',[CheckoutController::class, 'orderComplete'])->name('order.complete');
